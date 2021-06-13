@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-31T15:09:57Z" name="Suite" finished-at="2021-01-31T15:09:57Z" duration-ms="40">
+    <groups>
+      <group name="SanityTest">
+        <method signature="HotelSearch.cancelBooking()[pri:0, instance:groupingexampe.HotelSearch@28d18df5]" name="cancelBooking" class="groupingexampe.HotelSearch"/>
+      </group> <!-- SanityTest -->
+      <group name="SmokeTest">
+        <method signature="HotelSearch.searchHotel()[pri:0, instance:groupingexampe.HotelSearch@28d18df5]" name="searchHotel" class="groupingexampe.HotelSearch"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test started-at="2021-01-31T15:09:57Z" name="Test" finished-at="2021-01-31T15:09:57Z" duration-ms="40">
+      <class name="groupingexampe.HotelSearch">
+        <test-method signature="cancelBooking()[pri:0, instance:groupingexampe.HotelSearch@28d18df5]" started-at="2021-01-31T15:09:57Z" name="cancelBooking" finished-at="2021-01-31T15:09:57Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelBooking -->
+        <test-method signature="searchHotel()[pri:0, instance:groupingexampe.HotelSearch@28d18df5]" started-at="2021-01-31T15:09:57Z" name="searchHotel" finished-at="2021-01-31T15:09:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotel -->
+      </class> <!-- groupingexampe.HotelSearch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
